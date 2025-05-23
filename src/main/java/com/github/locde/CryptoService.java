@@ -9,7 +9,8 @@ import java.security.Key;
 
 public class CryptoService {
 
-    private static final String secret_key = System.getenv("SECRET_KEY");
+//    private static final String secret_key = System.getenv("SECRET_KEY");
+    private static final String secret_key = "secret_key_for_practice1";
     private static final String algorithm = "AES";
 
     private static Key getKey() {
